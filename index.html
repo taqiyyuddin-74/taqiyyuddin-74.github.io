@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Taqiyyuddin | Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Taqiyyuddin</h1>
-    <p>Web Developer | Network Engineer | Mahasiswa TI</p>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Taqiyyuddin</h1>
+      <p class="lead">Fullstack Web Developer | Network Engineer | Mahasiswa TI</p>
+    </div>
   </header>
 
-  <section>
-    <h2>👋 Tentang Saya</h2>
-    <p>Saya mahasiswa Teknik Informatika dari Universitas Muhammadiyah Jember, dengan minat dalam pengembangan web, jaringan, dan keamanan informasi. Saya memiliki pengalaman membuat aplikasi Laravel dan proyek Python sederhana seperti Caesar Cipher.</p>
+  <!-- Tentang Saya -->
+  <section class="py-5">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Saya mahasiswa Teknik Informatika dari Universitas Muhammadiyah Jember, dengan minat dalam pengembangan web, jaringan, dan keamanan informasi. Saya memiliki pengalaman membuat aplikasi Laravel dan proyek Python seperti Caesar Cipher.</p>
+    </div>
   </section>
 
-  <section>
-    <h2>📂 Proyek</h2>
-    <ul>
-      <li>
-        <strong>Sistem Informasi Peternakan Ayam</strong><br />
-        Laravel, MySQL, Bootstrap – Aplikasi CRUD untuk manajemen penjualan ayam dan telur.
-      </li>
-      <li>
-        <strong>Caesar Cipher (Python)</strong><br />
-        Program kriptografi sederhana untuk enkripsi pesan.
-      </li>
-    </ul>
+  <!-- Proyek -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2>Proyek</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Sistem Informasi Peternakan Ayam</h5>
+              <p class="card-text">CRUD berbasis Laravel untuk manajemen ayam & telur.</p>
+              <span class="badge bg-success">Laravel</span>
+              <span class="badge bg-warning text-dark">Bootstrap</span>
+              <span class="badge bg-info text-dark">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Caesar Cipher App</h5>
+              <p class="card-text">Aplikasi Python untuk mengenkripsi teks dengan algoritma Caesar Cipher.</p>
+              <span class="badge bg-primary">Python</span>
+              <span class="badge bg-secondary">Cryptography</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>🛠️ Keahlian</h2>
-    <p>Laravel, PHP, Python, MySQL, Mikrotik, FTTH, HTML, CSS, Git, VS Code</p>
+  <!-- Keahlian -->
+  <section class="py-5">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <ul class="list-inline">
+        <li class="list-inline-item badge bg-dark m-1">Laravel</li>
+        <li class="list-inline-item badge bg-dark m-1">PHP</li>
+        <li class="list-inline-item badge bg-dark m-1">JavaScript</li>
+        <li class="list-inline-item badge bg-dark m-1">Python</li>
+        <li class="list-inline-item badge bg-dark m-1">Mikrotik</li>
+        <li class="list-inline-item badge bg-dark m-1">HTML & CSS</li>
+        <li class="list-inline-item badge bg-dark m-1">MySQL</li>
+      </ul>
+    </div>
   </section>
 
-  <footer>
-    <p>Hubungi saya: taqiyuk1974@gmail.com | WhatsApp: 085792082656</p>
-  </footer>
+  <!-- Kontak -->
+  <section class="bg-primary text-white text-center py-4">
+    <div class="container">
+      <p>Email: taqiyuk1974@gmail.com | WhatsApp: 085792082656</p>
+      <p><a class="text-white" href="https://github.com/taqiyyuddin-74" target="_blank">GitHub Saya</a></p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
