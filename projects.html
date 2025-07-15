@@ -1,0 +1,24 @@
+<?php 
+$pageTitle = "Projects";
+include 'includes/header.php'; 
+?>
+
+<main>
+    <section class="projects-section">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Projects will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+</main>
+
+<?php include 'includes/footer.php'; ?>
