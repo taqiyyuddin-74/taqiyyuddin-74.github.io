@@ -68,6 +68,49 @@ img:hover {
   transition: transform 0.3s ease-in-out;
 }
 
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  color: #2e3a59;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+ul.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+ul.skill-list li {
+  background-color: #ffcc00;
+  color: #2e3a59;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
 /* === RESPONSIVE DESIGN === */
 @media (max-width: 768px) {
   header, footer {
